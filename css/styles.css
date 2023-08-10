@@ -1,0 +1,390 @@
+/* Reset de estilos para asegurar consistencia en diferentes navegadores */
+* {
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+}
+
+
+/* Estilos para que el contenido ocupe toda la pantalla */
+html,
+body {
+    height: 100%;
+}
+
+
+#caja-principal {
+    width: 100%;
+    min-height: 100vh;
+    /* Mínimo 100% del viewport height */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    /*Interlineado*/
+    text-align: center;
+    background-image: url(video-fondo.mp4);
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center;
+    /* Centra la imagen en el fondo */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    font-weight: 900;
+    /*Para qué tan fuerte querramos la negrilla*/
+    font-size: 20px;
+}
+
+
+
+h2 {
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 0%;
+}
+
+/*Alineaciones - Para afectar los headers, las secciones, 
+el footer, el aside, las barras de navegación, los artículos
+y las figuras. */
+
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption,
+hgroup {
+    display: block;
+}
+
+#caja-principal {
+    width: 960px;
+    margin: 15px auto;
+    /*Arriba y abajo de 15 y derecha e izquierda que se ajuste automático*/
+    text-align: left;
+}
+
+#caja-principal {
+    background-image: url('img/fondo.svg');
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-position: center center;
+    /* Centra la imagen en el fondo */
+    /* Puedes añadir más propiedades de estilo aquí */
+}
+
+
+#caja-principal-galeria {
+    width: 960px;
+    margin: 15px auto;
+    text-align: center;
+    background-color: black;
+}
+
+
+
+
+
+#cabecera-principal {
+    width: 100%;
+    background: linear-gradient(to right, to right, #ffffff, #b5c6e0);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 1000;
+}
+
+
+
+#foto-perfil {
+    width: 100%;
+    background: linear-gradient(to right, to right, #ffffff, #b5c6e0);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 1000;
+}
+
+
+#menu {
+    font-family: 'Josefin Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    background: linear-gradient((to right, #94dcde, #e761bd));
+    padding: 5px 18px;
+}
+
+#menu a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+#menu li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+#menu {
+    text-decoration: none;
+    background: linear-gradient(to right, #94dcde, #e761bd);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#menu {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#seccion-menu-lateral {
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+#menu-lateral {
+    padding-top: 12%;
+    float: left;
+    box-sizing: border-box;
+    width: 270px;
+    /* Ancho del menú lateral */
+    margin-right: 10px;
+    /* Espacio entre el menú y el contenido principal */
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+
+#menu-lateral a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#menu-lateral li {
+
+    padding: 5px;
+}
+
+#seccion-articulos-recientes h1#articulos-recientes {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    /*Interlineado*/
+
+}
+
+
+#seccion-bienvenida {
+    overflow: hidden;
+    margin-left: 290px;
+}
+
+
+
+
+#pie-pagina {
+    width: 100%;
+    padding: 20px 0;
+    background: linear-gradient(to right, #94dcde, #e761bd);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 1000;
+}
+
+
+
+
+
+
+/*
+article {
+    background-color: #f9f9f9;
+    border: 2px solid #999;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+*/
+article {
+    background-color: #f9f9f9;
+    border: 2px solid #999;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 20px;
+    text-align: center;
+    /* Para centrar el contenido del artículo */
+}
+
+
+
+article footer {
+    text-align: right;
+}
+
+time {
+    color: #999;
+}
+
+figcaption {
+    font: italic 10px verdana, sans-serif;
+}
+
+/*Estilos para la galería*/
+.galeria {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Evita que los artículos se envuelvan a la siguiente línea */
+    overflow-x: auto;
+    /* Agrega una barra de desplazamiento horizontal si los artículos exceden el ancho */
+    align-items: flex-start;
+    /* Alinea los artículos en la parte superior */
+    gap: 20px;
+    /* Espaciado entre los artículos */
+    padding: 20px;
+    /* Agrega espacio alrededor de la galería */
+}
+
+.galeria article {
+    flex: 0 0 auto;
+    /* Permite que los artículos tengan su ancho natural */
+    width: 300px;
+    /* Ancho fijo de cada artículo */
+    border: 1px solid #ccc;
+    /* Añade un borde para resaltar los artículos */
+    padding: 10px;
+    /* Agrega espacio interno a los artículos */
+}
+
+/*Termina estilos de galería*/
+
+#caja-principal-temas {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+    /*Align all the articles to the center*/
+
+}
+
+/*Video de fondo*/
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/*Video de fondo para articulos*/
+#video-background-articulos {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+/*Fondo transparente de elementos*/
+main {
+    float: right;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+/* Estilo para las secciones de temas de estudio */
+#seccion-temas-estudio {
+    padding: 40px;
+    background-color: #f7f7f7;
+}
+
+.tema {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tema h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tema p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Estilo para los enlaces de "Ver más" */
+.tema a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tema a:hover {
+    text-decoration: underline;
+}
